@@ -59,31 +59,23 @@
 	<div id="score"></div>
 
 <div class="row"></div>
+
+
+
 <div class="col-md-4">hello!</div>
 <div class="col-md-8">world!</div>
+
+
 </div>
 
 <div class="row">  
 <div class="col-md-12">
-<canvas id="game"></canvas>
+<div id="main"><canvas id="game"></canvas></div>
 </div>
+
+
 </div>
+<script type="text/javascript" src="main.js"></script>
 
-<script>
-var canvas = document.getElementById('game');
-    ctx = canvas.getContext("2d");
-    ballX = Math.floor(Math.random() * 300); //0..300
-    ballY = Math.floor(Math.random() * 500);
-    ballR = Math.floor(Math.random() * 100);
-     
-canvas.width = 480;
-canvas.height = 320;
 
-ctx.fillStyle = 'black';
-ctx.beginPath();
-ctx.arc(100,150,50,0,Math.PI * 2,true);
-ctx.fill();
-</script>
-
-</body>
 </html>
