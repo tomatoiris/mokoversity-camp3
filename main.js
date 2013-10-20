@@ -3,8 +3,8 @@ var gameModule = (function() {
 var timeoutVar,
     counter = 0
 
-function touchEvent(evt){
-    var x = evt.clientX;
+function touchEvent(evt) {
+    var x = evt.clientX,
         y = evt.clientY;
 
         console.log("Clicked:"+ x +"," + y);
